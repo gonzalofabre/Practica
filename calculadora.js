@@ -1,7 +1,8 @@
-const sumar = require("./sumar");
+const operaciones = require("./operaciones");
 const dividir = require("./dividir");
-const resta = require("./resta");
-const multiplicar = require ("./multiplicar");
 
 
 
+console.log(operaciones.sumar(3,4));
+console.log(operaciones.multiplicar(4,4));
+console.log(operaciones.resta(6,5));
